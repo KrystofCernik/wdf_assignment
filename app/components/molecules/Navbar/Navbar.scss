@@ -1,0 +1,54 @@
+@import '@/styles/variables.scss';
+
+.navbar__wrapper {
+  padding: 0 2rem;
+  
+  .navbar {
+    position: sticky;
+    top: 20px;
+    max-width: 1220px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: $shadow-5;
+    border: none;
+    border-radius: 2.25rem;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    opacity: 0;
+  
+    .navbar__logo {
+      position: absolute;
+      padding: 0.5rem 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      height: 2.5rem;
+      width: 2.5rem;
+      opacity: 0;
+    }
+  
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3.125rem;
+      margin: 0;
+    }
+  
+    .navbar__buttons {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      padding: 0.5rem 1rem;
+      opacity: 0;
+    }
+  }
+}

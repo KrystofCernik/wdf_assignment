@@ -1,0 +1,47 @@
+.header {
+  padding: 1.25rem 2rem 0 2rem;
+
+  .header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    
+    .header__top__logo img {
+      transform: translateY(-200%);
+    }
+  }
+
+  .header__top__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.875rem;
+
+    .header__top__wrapper__links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.875rem;
+
+      a {
+        transform: translateY(-300%);
+      }
+    }
+
+    .header__top__wrapper__buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+
+      a {
+        transform: translateY(-200%);
+      }
+
+      .language-select__wrapper {
+        transform: translateY(-200%);
+      }
+    }
+  }
+}

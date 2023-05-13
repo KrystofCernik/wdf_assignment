@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Poland</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Poland" fill-rule="nonzero">
+            <g id="poland">
+                <path d="M12,24 C18.6271875,24 24,18.6267188 24,12 C24,5.37328125 18.6271875,0 12,0 C5.3728125,0 0,5.37328125 0,12 C0,18.6267188 5.3728125,24 12,24 Z" id="Path" fill="#F3F4F5"></path>
+                <path d="M24,12 C24,18.6267188 18.6267188,24 12,24 C5.37328125,24 0,18.6271875 0,12" id="Path" fill="#D80027"></path>
+            </g>
+        </g>
+    </g>
+</svg>

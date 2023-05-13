@@ -1,0 +1,43 @@
+@import './variables.scss';
+@import './fonts.scss';
+@import './typography.scss';
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+  overflow-x: hidden;
+  color: $blue-500;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+    background: url('../../../public/images/desktop.png') no-repeat center center/cover;
+}
+
+
+
+.container {
+  padding: 0 2rem;
+  max-width: 1220px;
+  margin: 0 auto;
+}

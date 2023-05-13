@@ -1,0 +1,33 @@
+// Colors
+$black: #000000;
+$white: #FFFFFF;
+$grey-500: #F5F5F5;
+$grey-700: #656565;
+$blue-500: #47B8D1;
+$blue-800: #0A667B;
+$blue-900: #055162;
+$magenta-500: #D6368C;
+$magenta-600: #BD1E73;
+$magenta-900: #630337;
+$alert: #F22929;
+
+// Border colors
+$border-color: RGBA(135, 3, 73, 0.1);
+$border-color-focused: RGBA(99, 3, 55, 0.2);
+
+// Drop Shadows (x | y | blur | spread | color)
+$shadow-1: 40px 50px 80px 0 RGBA(48, 5, 14, 0.4);
+$shadow-2: 20px 30px 50px 0 RGBA(48, 5, 5, 0.25);
+$shadow-3: 15px 20px 40px 0 RGBA(48, 5, 5, 0.1);
+$shadow-4: 0 5px 30px 0 RGBA(48, 5, 5, 0.1);
+$shadow-5: 25px 30px 65px 0 RGBA(48, 5, 14, 0.05);
+$shadow-6: 2px 4px 10px 0 RGBA(48, 5, 5, 0.05);
+$shadow-button-big: 15px 20px 50px 0 RGBA(172, 37, 110, 0.2);
+$shadow-button-middle: 10px 15px 35px 0 RGBA(9, 72, 86, 0.2);
+
+// Sizes
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 	1280px;
+$xxl: 1536px;

@@ -1,0 +1,29 @@
+@import '@/styles/mixins.scss';
+
+.list-clinics {
+  width: calc(100% / 3);
+  margin-top: 3.75rem;
+  padding: 3.25rem 2.5rem 0 0;
+
+  @include lg {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .list-clinics__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include lg {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  }
+
+  h3 {
+    margin-bottom: 2rem;
+  }
+}

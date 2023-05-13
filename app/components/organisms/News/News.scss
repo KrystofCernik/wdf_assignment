@@ -1,0 +1,25 @@
+@import '@/styles/mixins.scss';
+
+.news {
+  margin-top: 7.5rem;
+
+  @include lg {
+    margin-top: 4rem;
+  }
+
+  .news__wrapper {
+    display: flex;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .news__more {
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: center;
+
+    @include lg {
+      margin-top: 2rem;
+    }
+  }
+}

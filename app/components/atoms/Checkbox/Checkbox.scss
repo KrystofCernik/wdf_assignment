@@ -1,0 +1,57 @@
+@import '@/styles/variables.scss';
+
+.checkbox__wrapper {
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  
+  input[type='checkbox'] {
+    position: absolute;
+    width: 1.5rem;
+    min-width: 0px;
+    height: 1.5rem;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: $white;
+      border: 2px solid $border-color;
+      border-radius: 0.25rem;
+      transition: 0.2s ease;
+  
+      img {
+        position: absolute;
+        display: none;
+      }
+    }
+  
+    input:checked ~ .checkmark {
+      border: 2px solid $border-color-focused;
+
+      img {
+        display: block;
+      }
+    }
+  }
+}

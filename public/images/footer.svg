@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1536px" height="430px" viewBox="0 0 1536 430" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>General/Logo/Background/Desktop</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1536" height="430" rx="40"></rect>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.2352678%" id="radialGradient-3">
+            <stop stop-color="#0F70BF" offset="0%"></stop>
+            <stop stop-color="#0F70BF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.2352678%" id="radialGradient-4">
+            <stop stop-color="#650955" offset="0%"></stop>
+            <stop stop-color="#650955" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.2352678%" id="radialGradient-5">
+            <stop stop-color="#8A0C50" offset="0%"></stop>
+            <stop stop-color="#A41964" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.2352678%" id="radialGradient-6">
+            <stop stop-color="#FFD2B8" offset="0%"></stop>
+            <stop stop-color="#FFD2B8" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="General/Footer/Desktop" transform="translate(-32.000000, 0.000000)">
+            <g id="General/Logo/Background/Desktop" transform="translate(32.000000, 0.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#BD1E73" xlink:href="#path-1"></use>
+                <g id="Group" mask="url(#mask-2)">
+                    <g transform="translate(-491.000000, -816.000000)" id="Oval">
+                        <circle fill="url(#radialGradient-3)" opacity="0.249458" cx="963.5" cy="1544.5" r="571.5"></circle>
+                        <circle fill="url(#radialGradient-4)" opacity="0.5" cx="1574.5" cy="636.5" r="571.5"></circle>
+                        <circle fill="url(#radialGradient-5)" cx="2106.5" cy="1108.5" r="571.5"></circle>
+                        <circle fill="url(#radialGradient-6)" opacity="0.504645" cx="571.5" cy="571.5" r="571.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

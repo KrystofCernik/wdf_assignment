@@ -1,0 +1,23 @@
+.carousel-card {
+  display: flex;
+  gap: 7rem;
+
+  .carousel-card__content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .carousel-card__image {
+    width: 40%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

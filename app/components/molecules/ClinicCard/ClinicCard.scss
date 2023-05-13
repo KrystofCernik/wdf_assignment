@@ -1,0 +1,39 @@
+@import '@/styles/variables.scss';
+
+.clinic-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid $border-color;
+
+  .clinic-card__image__wrapper {
+    filter: drop-shadow(5px 5px 5px RGBA(48, 5, 5, 0.1));
+
+    .clinic-card__image {
+      height: 100%;
+      width: 70px;
+      clip-path: path('M69.6348 34.8174C69.6348 15.5883 54.0465 0 34.8174 0C15.5883 0 0 15.5883 0 34.8174V69.1826C0 88.4117 15.5883 104 34.8174 104C54.0465 104 69.6348 88.4117 69.6348 69.1826V34.8174Z');
+  
+      .clinic-card__image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .clinic-card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    .clinic-card__content__languages {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

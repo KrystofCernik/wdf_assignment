@@ -1,0 +1,58 @@
+@import '@/styles/variables.scss';
+
+.input {
+  width: 47%;
+  display: block;
+
+  span {
+    display: block;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: $grey-700;
+    margin-bottom: 0.875rem;
+  }
+
+  input, textarea {
+    width: calc(100% - 3rem);
+    background-color: $white;
+    border: 2px solid $border-color;
+    border-radius: 1.5rem;
+    padding: 0.875rem 1.5rem;
+    transition: 0.2s ease;
+    color: $magenta-900;
+    font-size: 14px;
+    position: relative;
+
+    &::before {
+      content: '';
+      background: url('../../../assets/icons/exclamation.svg') no-repeat center center/cover;
+      position: absolute;
+      top: 20px;
+      right: 0;
+      width: 24px;
+      height: 24px;
+      z-index: 2;
+      opacity: 0;
+    }
+
+    &:focus {
+      outline: none;
+      border: 2px solid $border-color-focused;
+    }
+
+    &:not(:placeholder-shown):invalid {
+      color: $alert;
+      border: 2px solid $alert;
+
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+
+  textarea {
+    resize: none;
+    height: 8rem;
+    border-radius: 1.5rem;
+  }
+}

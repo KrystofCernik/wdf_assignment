@@ -1,0 +1,44 @@
+@import '@/styles/variables.scss';
+
+.banner {
+  width: 100%;
+  margin: 7.5rem 0;
+  padding: 0.875rem;
+  background-color: $white;
+  border: none;
+  border-radius: 440px;
+  box-shadow: $shadow-5;
+  display: flex;
+  gap: 3rem;
+
+  .banner__image__wrapper {
+    width: 45%;
+    height: 370px;
+    object-fit: cover;
+    clip-path: inset(0% 25% 0% 0% round 440px 440px 440px 440px);
+
+    .banner__image {
+      width: 100%;
+      height: 370px;
+      background: url('../../../../public/images/banner.png') no-repeat center center/cover;
+    }
+  }
+
+  .banner__content {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    h3 {
+      margin-bottom: 1.5rem;
+      width: 60%;
+    }
+
+    p {
+      margin-bottom: 2.5rem;
+      width: 80%;
+    }
+  }
+}

@@ -1,0 +1,115 @@
+@import '@/styles/variables.scss';
+@import '@/styles/mixins.scss';
+
+.footer__wrapper {
+  margin-top: 7.5rem;
+  width: 100%;
+  height: calc(430px + 2rem);
+  position: relative;
+
+  @include lg {
+    height: 500px;
+  }
+
+  .footer {
+    position: absolute;
+    inset: 0 2rem 2rem 2rem;
+    padding: 4.5rem 1rem 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1.5rem;
+    background: url('../../../../public/images/footer.svg') no-repeat center center/cover;
+    color: $white;
+
+    .footer__content {
+      max-width: 1220px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      @include lg {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2rem;
+      }
+
+      .footer__navigation {
+        display: flex;
+        align-items: start;
+        gap: 1.5rem;
+
+        @include lg {
+          gap: 0.5rem;
+        }
+
+        .footer__navigation__links {
+          display: flex;
+          align-items: start;
+          gap: 1.5rem;
+
+          @include lg {
+            gap: 0.5rem;
+          }
+
+          ul {
+            width: 185px;
+
+            p {
+              font-weight: 700;
+              color: $white;
+              margin-bottom: 1.5rem;
+            }
+
+            a {
+              display: block;
+              font-weight: 400;
+              font-size: 0.875rem;
+              color: $white;
+              margin-bottom: 1.4rem;
+            }
+          }
+        }
+
+        .footer__navigation__partners {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+
+          p {
+            color: $white;
+            font-weight: 700;
+          }
+
+          img {
+            margin: 1.5rem 0;
+          }
+
+          .footer__navigation__socials {
+            display: flex;
+            gap: 0.5rem;
+
+            img {
+              margin: 0;
+              filter: invert(1);
+            }
+          }
+        }
+      }
+    }
+
+    .footer__bottom {
+      max-width: 1220px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        color: $white;
+        opacity: 60%;
+      }
+    }
+  }
+}
