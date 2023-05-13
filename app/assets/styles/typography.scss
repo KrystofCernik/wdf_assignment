@@ -91,6 +91,10 @@ p {
     font-size: 1.5rem;
     color: $blue-900;
     margin-bottom: 1.5rem;
+
+    @include lg {
+      font-size: 1.2rem;
+    }
   }
 
   &.small {
